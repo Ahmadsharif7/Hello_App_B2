@@ -1,10 +1,11 @@
 public class HelloWorld {
     public static void main(String[] args) {
 
+        // If no arguments → default message
         if (args.length == 0) {
             System.out.println("Hello, World!");
-        } 
-		else {
+        } else {
+            // Enhanced for loop (for-each)
             for (String name : args) {
                 System.out.println("Hello, " + name + "!");
             }
